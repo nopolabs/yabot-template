@@ -1,3 +1,11 @@
 imports:
-    - { resource: '../vendor/nopolabs/yabot/config/help.yml' }
-    - { resource: '../vendor/nopolabs/yabot/config/status.yml' }
+    - { resource: '../vendor/nopolabs/yabot/config/plugin.help.yml' }
+    - { resource: '../vendor/nopolabs/yabot/config/plugin.status.yml' }
+
+services:
+    plugin.status:
+        class: MyPackage\HelloPlugin
+        arguments:
+            - '@logger'
+        tags:
+            - { name: yabot.plugin }

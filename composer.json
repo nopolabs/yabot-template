@@ -12,5 +12,11 @@
     "minimum-stability": "dev",
     "require": {
         "nopolabs/yabot": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "MyPackage\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "MyPackage\\": "tests/" }
     }
 }
