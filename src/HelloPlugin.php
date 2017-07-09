@@ -15,7 +15,7 @@ class HelloPlugin implements PluginInterface
     {
         $this->setLog($logger);
         $this->setConfig([
-            'hello' => 'bonjour',
+            'hello' => 'hello',
             'matchers' => ['hello' => "/^hello\\b/"],
         ]);
     }
