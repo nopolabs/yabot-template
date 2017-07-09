@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nopolabs/slack-client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nopolabs/phpws.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nopolabs/yabot": "dev-master"
+    }
+}
