@@ -1,4 +1,11 @@
 {
+    "name": "nopolabs/yabot-template",
+    "description": "Template for yabot projects.",
+    "license": "MIT",
+    "version": "0.0.1",
+    "type": "package",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -9,7 +16,6 @@
             "url": "https://github.com/nopolabs/phpws.git"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "nopolabs/yabot": "dev-master"
     },
