@@ -1,7 +1,8 @@
 <?php
 
-namespace MyPackage;
+namespace MyPackage\Tests;
 
+use MyPackage\HelloPlugin;
 use Nopolabs\Test\MockWithExpectationsTrait;
 use Nopolabs\Yabot\Message\Message;
 use PHPUnit\Framework\TestCase;

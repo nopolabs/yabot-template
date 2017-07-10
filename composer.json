@@ -27,6 +27,6 @@
         "psr-4": { "MyPackage\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "MyPackage\\": "tests/" }
+        "psr-4": { "MyPackage\\Tests\\": "tests/" }
     }
 }
