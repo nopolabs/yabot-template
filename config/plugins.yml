@@ -3,7 +3,7 @@ imports:
     - { resource: '../vendor/nopolabs/yabot/config/plugin.status.yml' }
 
 services:
-    plugin.status:
+    plugin.hello:
         class: MyPackage\HelloPlugin
         arguments:
             - '@logger'
