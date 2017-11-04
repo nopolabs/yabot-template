@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "php": ">=7.1",
         "nopolabs/yabot": "dev-master"
     },
     "require-dev": {
