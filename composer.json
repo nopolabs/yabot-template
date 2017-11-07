@@ -16,8 +16,13 @@
             "url": "https://github.com/nopolabs/phpws.git"
         }
     ],
+    "config" : {
+        "platform": {
+            "php": "7.0"
+        }
+    },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.0",
         "nopolabs/yabot": "dev-master"
     },
     "require-dev": {

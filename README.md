@@ -19,7 +19,8 @@ composer create-project --stability dev nopolabs/yabot-template my-bot
 cd my-bot
 # create your own git repository for your bot
 cp config.example.php config.php
-vi config.php
+cp .env.example .env
+vi .env
 # replace SLACK-TOKEN-GOES-HERE with your slack token
 php yabot.php
 # ... profit

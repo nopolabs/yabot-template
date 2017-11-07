@@ -1,6 +1,6 @@
 <?php
 return [
-    'slack.token' => 'SLACK-TOKEN-GOES-HERE',
+    'slack.token' => getenv('SLACK-TOKEN'),
     'storage.dir' => 'storage',
     'log.file' => 'logs/bot.log',
     'log.name' => 'bot',
